@@ -1,0 +1,38 @@
+/* Estilos para a seção de Observações */
+.observations {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Título com ícone para expandir/colapsar */
+.observations .collapsible {
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.observations .icon {
+  font-size: 1.2em;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.observations .icon.rotate {
+  transform: rotate(90deg);
+}
+
+.observations .content {
+  margin-top: 10px;
+}
+
+.observations p {
+  font-size: 1em;
+  color: #333;
+  line-height: 1.6;
+}
