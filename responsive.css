@@ -81,9 +81,10 @@
     line-height: 1.5;
   }
 
-  /* Ajustes para o rodapé */
+  /* Ajuste para que o rodapé role naturalmente com o conteúdo em dispositivos móveis */
   footer {
+    position: static;
+    padding: 20px;
     font-size: 0.8em;
-    padding: 12px;
   }
 }
