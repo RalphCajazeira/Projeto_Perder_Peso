@@ -1,0 +1,22 @@
+/* Estilos para a seção de Suplementação */
+
+.supplements {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.supplements ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.supplements ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-weight: bold;
+  color: #00234f;
+}

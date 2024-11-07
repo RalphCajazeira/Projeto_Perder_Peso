@@ -1,0 +1,72 @@
+/* Estilos para a seção de Plano de Treino na Academia */
+
+.workout {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título da seção com ícone */
+.workout .collapsible {
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.workout .icon {
+  font-size: 1.2em;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.workout .icon.rotate {
+  transform: rotate(90deg);
+}
+
+/* Card para cada dia de treino */
+.workout .day-card {
+  background: #f9f9f9;
+  border-left: 5px solid #00234f;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos títulos de cada dia */
+.workout .day-card h3 {
+  color: #00234f;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Estilo das listas de exercícios */
+.workout ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.workout ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  padding-left: 5px;
+  border-left: 2px solid #ddd;
+}
+
+/* Destaque para aquecimento e cardio */
+.workout ul li.important {
+  color: #00234f;
+  font-weight: bold;
+}
+
+/* Separador entre os itens da lista */
+.workout ul li + li {
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px dashed #ccc;
+}

@@ -1,0 +1,46 @@
+/* Estilos para a seção de Plano Alimentar */
+
+.plan {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos títulos de cada dia (Segunda, Terça, etc.) */
+.plan h3 {
+  color: #00234f;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+/* Estilo das tabelas */
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #00234f;
+  color: #ffffff;
+}
