@@ -1,4 +1,4 @@
-/* Estilos globais */
+/* Estilos Globais */
 
 * {
   box-sizing: border-box;
@@ -23,7 +23,30 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* Estilo dos títulos com ícones */
+/* Estilos compartilhados de seção */
+/* Adiciona espaçamento inferior entre a última sessão e o rodapé */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px; /* Aumenta o espaçamento inferior */
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #00234f;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Estilo comum para títulos com ícones */
 .collapsible {
   cursor: pointer;
   padding: 10px;
@@ -42,12 +65,8 @@ h1 {
   transform: rotate(90deg);
 }
 
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #00234f;
-  color: #ffffff;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+/* Estilo padrão de conteúdo */
+.content {
+  display: block;
+  margin-top: 10px;
 }
